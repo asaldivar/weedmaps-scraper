@@ -1,4 +1,4 @@
-[
+module.exports = [
 	"https://weedmaps.com/dispensaries/mr-naturals#/details",
 	"https://weedmaps.com/dispensaries/westside-meds-2-3#/details",
 	"https://weedmaps.com/dispensaries/organic-green-treatment-center#/details",
@@ -98,7 +98,8 @@
 	"https://weedmaps.com/dispensaries/habibi-meds#/details",
 	"https://weedmaps.com/dispensaries/treetop-la#/details",
 	"https://weedmaps.com/dispensaries/natural-herbal-natural-herbal-pain-relief-inc#/details",
-	"https://weedmaps.com/dispensaries/the-relief-collective#/details","https://weedmaps.com/dispensaries/the-relief-collective#/details",
+	"https://weedmaps.com/dispensaries/the-relief-collective#/details",
+	"https://weedmaps.com/dispensaries/the-relief-collective#/details",
 	"https://weedmaps.com/dispensaries/cpt-flight-club#/details",
 	"https://weedmaps.com/dispensaries/cannabal-city#/details",
 	"https://weedmaps.com/dispensaries/green-trea#/details",
