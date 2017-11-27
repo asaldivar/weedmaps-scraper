@@ -27,8 +27,8 @@ function scrapeDispensaries(url, cb) {
 			address: '',
 			phone: '',
 			email: '',
-			website: '',
-			instagram: ''
+			instagram: '',
+			slug: url
 		}
 
 		$('.listing-details').filter(function() {
@@ -40,15 +40,9 @@ function scrapeDispensaries(url, cb) {
 		$('.details-cards-sidebar').filter(function() {
 			const data = $(this)
 
-			// console.log('data:',data.children().map(function(i, el) {
-			// 	console.log($(this).text())
-			// }))
-			// console.log('address:',data.children('div'))
-			// data.children('div').map(function() {
-			// 	console.log($(this).text())
-			// })
-			// console.log('phone:',data.children().eq(1))
-			// console.log('email:',data.children().eq(1))
+			json.address = data.children().first().children().eq(1).children().first().children('.details-card-item-data').text()
+			json.phone = data.children().first().children().eq(1).children().eq(1).children('.details-card-item-data').first().text()
+			json.email = data.children().first().children().eq(1).children().eq(2).children('.details-card-item-data').first().text()
 		})
 
 		$('#instagram').filter(function() {
